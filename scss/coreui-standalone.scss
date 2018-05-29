@@ -10,9 +10,9 @@
 @import "variables";
 
 // Import Bootstrap source files
-@import "bootstrap/scss/functions";
-@import "bootstrap/scss/variables";
-@import "bootstrap/scss/mixins";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
 
 // Import core styles
 @import "mixins";
