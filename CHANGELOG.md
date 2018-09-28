@@ -1,3 +1,25 @@
+## v2.0.11
+- fix(_layout.scss) `sidebar-fixed` IE issue with `.main` margin on mobile
+- fix(_sidebar.scss) `sidebar-toggler` issue for `rtl`
+- chore: update `babel-eslint` to `10.0.1`
+- chore: update `stylelint` to `9.6.0`
+
+## v2.0.10
+- fix(_layout.scss) `navbar-brand` top position IE issue
+- chore: update `babel-eslint` to `10.0.0`
+
+## v2.0.9
+- fix(sidebar) remove scrollbar when `sidebar-minimized`
+- refactor(sidebar) extract `makeScrollbar()` and `destroyScrollbar()`
+- chore: update `@babel/cli` to `7.1.0`
+- chore: update `@babel/core` to `7.1.0`
+- chore: update `@babel/plugin-transform-runtime` to `7.1.0`
+- chore: update `@babel/preset-env` to `7.1.0`
+- chore: update `copyfiles` to `2.1.0`
+- chore: update `eslint` to `5.6.0`
+- chore: update `rollup` to `0.66.2`
+- chore: update `stylelint-scss` to `3.3.1`
+
 ## v2.0.8
 - fix(sidebar) minimizing sidebar with bottom chevron does not allow to maximize it again #404
 - fix(sidebar) show scrollbar after height change #419
@@ -5,7 +27,7 @@
 ## v2.0.6
 - fix(sidebar) static mobile sidebar not dismissed on link click
 
-## v2.0.8
+## v2.0.5
 - fix(sidebar) mobile sidebar not dismissed on link click #409
 - chore: update `bootstrap` to `4.1.3`
 - chore: update `@babel/cli` to `7.0.0`
