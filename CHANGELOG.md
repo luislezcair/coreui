@@ -1,3 +1,52 @@
+## v2.1.9
+- fix(dropdown): rtl caret spacing
+- fix(input-group): rtl append, prepend border radius and margins
+- fix(rtl): rtl float, margin and padding
+- fix(button-group): rtl margin and border-radius
+###### Dependencies update:
+- update `@babel/core` to `^7.4.0`
+- update `@babel/plugin-proposal-object-rest-spread` to `^7.4.0`
+- update `@babel/plugin-transform-runtime` to `^7.4.0`
+- update `@babel/preset-env` to `^7.4.2`
+- update `autoprefixer` to `^9.5.0`
+- update `eslint` to `^5.15.3`
+- update `rollup` to `^1.7.0`
+- update `uglify-js` to `^3.5.1`
+
+## v2.1.8
+- fix(scss): `cssnano` mangles `background-position` temp fix (re: BS4 misplaced validation feedback icons)
+###### Dependencies update:
+- update `@babel/core` to `^7.3.4`
+- update `@babel/plugin-proposal-object-rest-spread` to `^7.3.4`
+- update `@babel/plugin-transform-runtime` to `^7.3.4`
+- update `@babel/preset-env` to `^7.3.4`
+- update `autoprefixer` to `^9.4.10`
+- update `eslint` to `^5.15.1`
+- update `postcss-cli` to `^6.1.2`
+- update `rollup` to `^1.6.0`
+- update `rollup-plugin-commonjs` to `^9.2.1`
+- update `rollup-plugin-node-resolve` to `^4.0.1`
+- update `stylelint-order` to `^2.1.0`
+- update `stylelint-scss` to `^3.5.4`
+
+## v2.1.7
+- update `bootstrap` to `^4.3.1` fixes *Class 'btn' style white-space: nowrap; has been removed creating issues with the btn with favicon* [#151](https://github.com/coreui/coreui-free-react-admin-template/issues/151) 
+###### Dependencies update:
+- update `bootstrap` to `^4.3.1` 
+- update `@babel/core` to `^7.3.3`
+- update `@babel/plugin-proposal-object-rest-spread` to `^7.3.2`
+- update `@babel/preset-env` to `^7.3.1`
+- update `autoprefixer` to `^9.4.8`
+- update `babel-plugin-istanbul` to `^5.1.1`
+- update `eslint` to `^5.14.1`
+- update `eslint-plugin-compat` to `^2.7.0`
+- update `nodemon` to `^1.18.10`
+- update `rollup` to `^1.2.2`
+- update `rollup-plugin-babel` to `^4.3.2`
+- update `rollup-plugin-node-resolve` to `^4.0.0`
+- update `stylelint` to `^9.10.1`
+- update `stylelint-scss` to `^3.5.3`
+
 ## v2.1.6
 - fix: clean exit on postinstall dependency missing #25
 - chore: update `rollup-plugin-babel` to `^4.3.0`
